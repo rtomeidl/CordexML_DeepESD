@@ -1,0 +1,14 @@
+{
+  "model_name"   : "DeepESD",
+  "lossf"        : "customMSE",
+  "target_var"   : "tasmax",
+  "threshold_pr" : 0.1,
+  "input_path"   : "/media/vor_disk1/data/rtome/MachineLearning/aaa_CORDEX_ML_CNN_final",
+  "output_path"  : "results",
+  "domain_path"  : "/media/vor_disk1/data/rtome/MachineLearning/aaa_CORDEX_ML_ADOMAINS",
+  "domain"       : "SA",
+  "train_exp"    : "Emulator_hist_future",
+  "pred_period"  : "end_century",
+  "pred_type"    : "imperfect",
+  "pred_model"   : "ACCESS-CM2"
+}

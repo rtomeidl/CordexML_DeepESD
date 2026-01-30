@@ -1,0 +1,14 @@
+{
+  "input_path"   : "/ec/res4/scratch/ptar/XGBoost/aDOMAINS",
+  "output_path"  : "results",
+  "train_exp"    : "Emulator_hist_future",
+  "target_var"   : "pr",
+  "domain"       : "ALPS_domain",
+  "ml_model"     : "BMDense",
+  "nepochs"      : 10000,
+  "lrate"        : 0.0001,
+  "patience_es"  : 60,
+  "nbatch_size"  : 64,
+  "lossf"        : "customBGamma",
+  "threshold_pr" : 0.1
+}
